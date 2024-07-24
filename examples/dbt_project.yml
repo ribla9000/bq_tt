@@ -1,0 +1,25 @@
+name: 'chicago_taxi'
+version: '1.0.0'
+
+profile: 'my_bigquery_profile'
+model-paths: ["repository/sql"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  tips_change_month_by_month:
+    example:
+      +materialized: view
+    stage:
+      tags:
+        - 'stage'
+        - 'common'
+      enabled: true
+      materialized: view

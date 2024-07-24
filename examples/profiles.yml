@@ -1,0 +1,10 @@
+my_bigquery_profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: your project ID
+      dataset: mydataset
+      keyfile: path/to/service_account.json
+      threads: 4

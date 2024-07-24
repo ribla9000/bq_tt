@@ -1,0 +1,4 @@
+SERVICE_ACC_PATH =./service_account.json
+PROJECT_NAME=shusobi-test
+DATASET_NAME=mydataset
+SPREADSHEET_ID=1

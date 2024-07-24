@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: tips_change_month_by_month
+    description: "Result month by month"
+    columns:
+
+      - name: taxi_id
+        description: "uuid of taxi"
+        data_tests:
+          - not_null
+
+      - name: year_month
+        description: "Date, %Y-%m"
+        data_tests:
+          - not_null
+
+      - name: tips_sum
+        description: "Summary of tips for month"
+        data_tests:
+          - not_null
+
+      - name: tips_change
+        description: "percent of current month to month before"
+
+  - name: table_taxi_from_2018
+    description: "Taxi from 2018"
+
+  - name: view_taxi_from_2018
+    description: "Taxi from 2018"
+
+  - name: monthly
+    description: "Taxi from 2018"
