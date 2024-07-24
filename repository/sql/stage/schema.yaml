@@ -21,13 +21,10 @@ models:
           - not_null
 
       - name: tips_change
-        description: "percent of current month to month before"
+        description: "changed summary of tips in percent"
 
   - name: table_taxi_from_2018
-    description: "Taxi from 2018"
+    description: "TABLE Taxi from 2018"
 
   - name: view_taxi_from_2018
-    description: "Taxi from 2018"
-
-  - name: monthly
-    description: "Taxi from 2018"
+    description: "MV Taxi from 2018"
