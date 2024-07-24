@@ -1,0 +1,12 @@
+*.pyc
+/target/
+.env
+.user.yaml
+bb/dbt_project.yml
+bb/profiles.yml
+bb/service_account.json
+/logs/
+/bb/
+*.idea
+**/.idea
+*.xml
