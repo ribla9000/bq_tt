@@ -8,7 +8,7 @@ cd ./bq_tt
 ``` 
 
 *Create .env file and fill it by using env_example*\
-*Check all yaml/yml files  in base dir - fill it*
+*Check all yaml/yml files  in base dir - fill it*\
 *Install reqs* 
 ```bash
 pip3 install -r requirements
