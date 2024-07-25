@@ -5,8 +5,6 @@ sources:
     schema: chicago_taxi_trips
     tables:
       - name: taxi_trips
-  - name: google_sheets
-    description: "Data"
 
   - name: tips_change_month_by_month
     database: shusobi-test
