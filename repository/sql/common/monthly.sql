@@ -9,7 +9,7 @@ WITH top_3 AS (
   WHERE EXTRACT(YEAR FROM trip_start_timestamp) = 2018 AND EXTRACT(MONTH FROM trip_start_timestamp) = 4
   GROUP BY taxi_id
   ORDER BY total_tips DESC
-  LIMIT 4
+  LIMIT 3
 )
 
 
